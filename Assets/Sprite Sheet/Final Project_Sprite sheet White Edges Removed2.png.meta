@@ -1,0 +1,1959 @@
+fileFormatVersion: 2
+guid: 6a5122e55106f9245874df14947c8c53
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 197
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_0
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 7585
+        width: 202
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de9d33c6e8d7e7498ac062aa0684f93
+      internalID: -1609461119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_1
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 7585
+        width: 202
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b031b36b23818c64c80b1427a310ac91
+      internalID: 1977788331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_2
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 7585
+        width: 202
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a1c70976656b2429b88ab97b7b47ed
+      internalID: -1534717759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_3
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 7583
+        width: 204
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4e9eb6e9ce8df419abfcec6f464084
+      internalID: 1636176665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_4
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 7585
+        width: 208
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894c6e7858b1a52499bebd24b2552af9
+      internalID: 1551085611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_5
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 7583
+        width: 206
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a0be20120fade4c8d000a082d7e4e1
+      internalID: 890708202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_6
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 7585
+        width: 204
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf36fc82292ca84e948bd69f1c088f8
+      internalID: -322871929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_7
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 7583
+        width: 208
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83d0eee80865cb4d89b832744204c29
+      internalID: 1087899697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_8
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 7585
+        width: 206
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b04a623dc154b44bf280ca868fec55
+      internalID: 535127407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_9
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 7587
+        width: 206
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4606fceb020285342b3242445a661347
+      internalID: -511993669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_10
+      rect:
+        serializedVersion: 2
+        x: 4749
+        y: 7587
+        width: 308
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a1df1f0902c1a48b9f2f9719cb7e6d
+      internalID: 1631889350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_11
+      rect:
+        serializedVersion: 2
+        x: 5309
+        y: 7585
+        width: 588
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0ae5d2029f50c4da33c80d9499a959
+      internalID: 1984687446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_12
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 6179
+        width: 198
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46be053f4623ec49942a41c0d1a0232
+      internalID: 1517311904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_13
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 6179
+        width: 202
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653853f70d26da44f86d27beca69fe8f
+      internalID: -1998633911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_14
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 6179
+        width: 198
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cea0052b9ebb648ab0d429eab1a030
+      internalID: -1390694171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_15
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 6171
+        width: 208
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fa1a3daac5d2a4f9de1d9d8a43e896
+      internalID: -1516595654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_16
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 6179
+        width: 204
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4873f2021a6c30249ac23cecb95c15ec
+      internalID: 1046115907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_17
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 6181
+        width: 200
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb85febf3e40164f9f8623c0f555f99
+      internalID: 1144548913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_18
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 6181
+        width: 124
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad97d586cb1f81a49adbf6c3bfb8f655
+      internalID: -60884728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_19
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 6183
+        width: 204
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f662b06e1bd27904f97190cfe8e8d1d7
+      internalID: 1766876031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_20
+      rect:
+        serializedVersion: 2
+        x: 5961
+        y: 5245
+        width: 268
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5a57078a01b864e9b6d913afaff011
+      internalID: -1024940059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_21
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 4575
+        width: 134
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af045394573e6464285813e19ed0b590
+      internalID: -2085695956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_22
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 4579
+        width: 138
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd89198e1549e8046b4f8f7a85f8ebdb
+      internalID: -1584555880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_23
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 4577
+        width: 280
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8448c5f2add674493dc03a84c85449
+      internalID: 1862176715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_24
+      rect:
+        serializedVersion: 2
+        x: 4087
+        y: 4569
+        width: 294
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54222901b8ad5e4eaa47ebd7181c7c4
+      internalID: 2061627347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_25
+      rect:
+        serializedVersion: 2
+        x: 4627
+        y: 4579
+        width: 308
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a529dbf6daaa54fb9a52bfa4b83b78
+      internalID: 592035523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_26
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 4585
+        width: 298
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6d246967cb1a549952d34e82e72d77
+      internalID: 311948687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_27
+      rect:
+        serializedVersion: 2
+        x: 6105
+        y: 4581
+        width: 200
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b247b6913fd4de438304af79ae1a4ac
+      internalID: 415090938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_28
+      rect:
+        serializedVersion: 2
+        x: 6501
+        y: 4579
+        width: 208
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31296e8734185d246af313b0663fd89a
+      internalID: 1156924284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_29
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 4581
+        width: 208
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cb26fe34d62d9459919ec6982d7be2
+      internalID: -1228318768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_30
+      rect:
+        serializedVersion: 2
+        x: 7301
+        y: 4581
+        width: 208
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45756828d9b4d8542a3459e18d65a118
+      internalID: -1217051741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_31
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 3979
+        width: 204
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ec2e957dc11d944bb9e8daf7b826f6
+      internalID: 804773109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_32
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 3981
+        width: 206
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934e283cab4e9d744993280866f0fed7
+      internalID: 191695229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_33
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 3847
+        width: 306
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f14582b64ac004098de1f8ceaa6ede
+      internalID: -737914313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_34
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 3847
+        width: 518
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdf93a643253b14997b54f373d5944b
+      internalID: 740952453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_35
+      rect:
+        serializedVersion: 2
+        x: 4931
+        y: 3849
+        width: 512
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458b204b3ff019848b68be946b1cf6b3
+      internalID: -1795533343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_36
+      rect:
+        serializedVersion: 2
+        x: 6103
+        y: 3983
+        width: 202
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6671bbf00e7bee44ab3e7cc23ef9105
+      internalID: -1024449303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_37
+      rect:
+        serializedVersion: 2
+        x: 6511
+        y: 3979
+        width: 362
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2d822fa3564094297373bd8f335444
+      internalID: 390420025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_38
+      rect:
+        serializedVersion: 2
+        x: 7111
+        y: 3981
+        width: 388
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6b1e1d92a753c4384ba4bba1935ded
+      internalID: -1361898183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_39
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 3379
+        width: 206
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e212834e0c81e254490d6d50b0e1f548
+      internalID: 1874144649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_40
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 3381
+        width: 204
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa3dbf6501d65c4cb4656b068373ca2
+      internalID: -1902465906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_41
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 3379
+        width: 206
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a334a8293d084cd478bc8079e79f931c
+      internalID: 1583032028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_42
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 3381
+        width: 204
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14a2a2329649034c99b03546d82ee18
+      internalID: 137221671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_43
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 3309
+        width: 326
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0ae28b76bd36e4a961fe304f038059
+      internalID: -600942096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_44
+      rect:
+        serializedVersion: 2
+        x: 6101
+        y: 3379
+        width: 206
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec840d3a94443e846872321971956108
+      internalID: -561722330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_45
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 2779
+        width: 202
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df24d9c49f31dc545bff324ee2344da2
+      internalID: 1577839167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_46
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2781
+        width: 208
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b613d94eb0fc4b42a18dd2c21a06ba6
+      internalID: -28656603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_47
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2767
+        width: 282
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c9e1a1f55e6584c9907f8930c8442d
+      internalID: -168193834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_48
+      rect:
+        serializedVersion: 2
+        x: 4097
+        y: 2773
+        width: 292
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fe1de01e925774fac831532281b056
+      internalID: -342716780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_49
+      rect:
+        serializedVersion: 2
+        x: 4633
+        y: 2769
+        width: 308
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d508e14576dcab546bab009a6315c7e2
+      internalID: -367883130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_50
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 2769
+        width: 294
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4043d1c9a56a8f4884aaf1afb7dd759
+      internalID: 936294554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_51
+      rect:
+        serializedVersion: 2
+        x: 6103
+        y: 2777
+        width: 200
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec202968fc8b6e49abae88a15a3f977
+      internalID: -3468986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_52
+      rect:
+        serializedVersion: 2
+        x: 6503
+        y: 2779
+        width: 206
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83706cdd400569e45a652c0de3dfb54f
+      internalID: -523918005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_53
+      rect:
+        serializedVersion: 2
+        x: 6905
+        y: 2781
+        width: 204
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d3692ad8807644d9f1161fd13d6dec
+      internalID: 1575180148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_54
+      rect:
+        serializedVersion: 2
+        x: 7305
+        y: 2779
+        width: 206
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd71f5baffa23644ab22d93f05eadc6
+      internalID: -1729412855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_55
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 2183
+        width: 204
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e2a15ab835c734c92353f3379e50f0
+      internalID: 2049367766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_56
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 2181
+        width: 204
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57284a7199ffe4b4787259fd96b34c22
+      internalID: -272821782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_57
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 2179
+        width: 202
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2989d92c252ed4e82ef7247e8bc81b
+      internalID: 1479009198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_58
+      rect:
+        serializedVersion: 2
+        x: 3529
+        y: 1963
+        width: 308
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c8af70d7d9714d963307e0f2560d6
+      internalID: 1506123939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_59
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 1953
+        width: 520
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1696d5299bc482d478b8a548770f2ad7
+      internalID: -1358037104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_60
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 1965
+        width: 510
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbae45cc3d3b2d047879864750310107
+      internalID: 1182556292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_61
+      rect:
+        serializedVersion: 2
+        x: 6097
+        y: 2177
+        width: 208
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce716709bafdb0479711bbe9eaeb622
+      internalID: 707435735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_62
+      rect:
+        serializedVersion: 2
+        x: 6507
+        y: 2181
+        width: 334
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cada6910f97db4c4aac9f1d510510f70
+      internalID: -1052804984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_63
+      rect:
+        serializedVersion: 2
+        x: 6909
+        y: 2179
+        width: 360
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc202d769c6371548946c55e45b5409c
+      internalID: 24582982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_64
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1581
+        width: 200
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9045280b7a8ea02409e2945bdae066ae
+      internalID: -2144211745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_65
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1581
+        width: 202
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4a28c39fb29294db5bcf8ef70f369b
+      internalID: 201602758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_66
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1581
+        width: 204
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1831b338528187c46bed5529030c9104
+      internalID: 470884758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_67
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1581
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce2aaf0e52d5e54db58dcc8d37ae292
+      internalID: -585469569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_68
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 1579
+        width: 202
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3e2a97e516e754895912d718e6a229
+      internalID: -360393733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_69
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 1431
+        width: 330
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5c4fe8fbdeecc47aaede150d7d00bf
+      internalID: -213398737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_70
+      rect:
+        serializedVersion: 2
+        x: 6099
+        y: 1783
+        width: 210
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75751564de755d042b4cc4f432280ad7
+      internalID: -705749009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_71
+      rect:
+        serializedVersion: 2
+        x: 6153
+        y: 1383
+        width: 108
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861e5b616eaaf414882efa906a13d6ed
+      internalID: 1892288864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_72
+      rect:
+        serializedVersion: 2
+        x: 6569
+        y: 1383
+        width: 102
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342f9a86ab22f6e47848ccf0f50822a8
+      internalID: 1017269753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_73
+      rect:
+        serializedVersion: 2
+        x: 6959
+        y: 1383
+        width: 114
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e14358ca505a17448fb77b42e7ab085
+      internalID: 556876153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_74
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 983
+        width: 198
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879f57aa3f1e1654cadb55d0fc870fed
+      internalID: 228616616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_75
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 979
+        width: 204
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f9615f6b23d79419bb15570f99ce8f
+      internalID: -1615348498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_76
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 979
+        width: 204
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d216a46fcf725bc428210b63637de3ae
+      internalID: -1219590751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_77
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 981
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32028b4b84f7b204ca5021cea4d92552
+      internalID: 87661289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_78
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 983
+        width: 206
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5376e91edb3c24f45854a82c9eb7e58e
+      internalID: -1903684436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_79
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 981
+        width: 202
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19b0ebca89f8104fb4a9ef695a3e4de
+      internalID: 1120348420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_80
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 981
+        width: 202
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0134374021c19f45b9349416ce5fcd3
+      internalID: 1808123909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_81
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 981
+        width: 208
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448cc056d67aa2e4ca0942c94b699fd3
+      internalID: 709759073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_82
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 313
+        width: 288
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b03b0fabe51e6468234feb4afd7000
+      internalID: 46100682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Project_Sprite sheet White Edges Removed2_83
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 311
+        width: 288
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb862cb17e6f734991a4050d6814c8e
+      internalID: -1425146456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Final Project_Sprite sheet White Edges Removed2_0: -1609461119
+      Final Project_Sprite sheet White Edges Removed2_1: 1977788331
+      Final Project_Sprite sheet White Edges Removed2_10: 1631889350
+      Final Project_Sprite sheet White Edges Removed2_11: 1984687446
+      Final Project_Sprite sheet White Edges Removed2_12: 1517311904
+      Final Project_Sprite sheet White Edges Removed2_13: -1998633911
+      Final Project_Sprite sheet White Edges Removed2_14: -1390694171
+      Final Project_Sprite sheet White Edges Removed2_15: -1516595654
+      Final Project_Sprite sheet White Edges Removed2_16: 1046115907
+      Final Project_Sprite sheet White Edges Removed2_17: 1144548913
+      Final Project_Sprite sheet White Edges Removed2_18: -60884728
+      Final Project_Sprite sheet White Edges Removed2_19: 1766876031
+      Final Project_Sprite sheet White Edges Removed2_2: -1534717759
+      Final Project_Sprite sheet White Edges Removed2_20: -1024940059
+      Final Project_Sprite sheet White Edges Removed2_21: -2085695956
+      Final Project_Sprite sheet White Edges Removed2_22: -1584555880
+      Final Project_Sprite sheet White Edges Removed2_23: 1862176715
+      Final Project_Sprite sheet White Edges Removed2_24: 2061627347
+      Final Project_Sprite sheet White Edges Removed2_25: 592035523
+      Final Project_Sprite sheet White Edges Removed2_26: 311948687
+      Final Project_Sprite sheet White Edges Removed2_27: 415090938
+      Final Project_Sprite sheet White Edges Removed2_28: 1156924284
+      Final Project_Sprite sheet White Edges Removed2_29: -1228318768
+      Final Project_Sprite sheet White Edges Removed2_3: 1636176665
+      Final Project_Sprite sheet White Edges Removed2_30: -1217051741
+      Final Project_Sprite sheet White Edges Removed2_31: 804773109
+      Final Project_Sprite sheet White Edges Removed2_32: 191695229
+      Final Project_Sprite sheet White Edges Removed2_33: -737914313
+      Final Project_Sprite sheet White Edges Removed2_34: 740952453
+      Final Project_Sprite sheet White Edges Removed2_35: -1795533343
+      Final Project_Sprite sheet White Edges Removed2_36: -1024449303
+      Final Project_Sprite sheet White Edges Removed2_37: 390420025
+      Final Project_Sprite sheet White Edges Removed2_38: -1361898183
+      Final Project_Sprite sheet White Edges Removed2_39: 1874144649
+      Final Project_Sprite sheet White Edges Removed2_4: 1551085611
+      Final Project_Sprite sheet White Edges Removed2_40: -1902465906
+      Final Project_Sprite sheet White Edges Removed2_41: 1583032028
+      Final Project_Sprite sheet White Edges Removed2_42: 137221671
+      Final Project_Sprite sheet White Edges Removed2_43: -600942096
+      Final Project_Sprite sheet White Edges Removed2_44: -561722330
+      Final Project_Sprite sheet White Edges Removed2_45: 1577839167
+      Final Project_Sprite sheet White Edges Removed2_46: -28656603
+      Final Project_Sprite sheet White Edges Removed2_47: -168193834
+      Final Project_Sprite sheet White Edges Removed2_48: -342716780
+      Final Project_Sprite sheet White Edges Removed2_49: -367883130
+      Final Project_Sprite sheet White Edges Removed2_5: 890708202
+      Final Project_Sprite sheet White Edges Removed2_50: 936294554
+      Final Project_Sprite sheet White Edges Removed2_51: -3468986
+      Final Project_Sprite sheet White Edges Removed2_52: -523918005
+      Final Project_Sprite sheet White Edges Removed2_53: 1575180148
+      Final Project_Sprite sheet White Edges Removed2_54: -1729412855
+      Final Project_Sprite sheet White Edges Removed2_55: 2049367766
+      Final Project_Sprite sheet White Edges Removed2_56: -272821782
+      Final Project_Sprite sheet White Edges Removed2_57: 1479009198
+      Final Project_Sprite sheet White Edges Removed2_58: 1506123939
+      Final Project_Sprite sheet White Edges Removed2_59: -1358037104
+      Final Project_Sprite sheet White Edges Removed2_6: -322871929
+      Final Project_Sprite sheet White Edges Removed2_60: 1182556292
+      Final Project_Sprite sheet White Edges Removed2_61: 707435735
+      Final Project_Sprite sheet White Edges Removed2_62: -1052804984
+      Final Project_Sprite sheet White Edges Removed2_63: 24582982
+      Final Project_Sprite sheet White Edges Removed2_64: -2144211745
+      Final Project_Sprite sheet White Edges Removed2_65: 201602758
+      Final Project_Sprite sheet White Edges Removed2_66: 470884758
+      Final Project_Sprite sheet White Edges Removed2_67: -585469569
+      Final Project_Sprite sheet White Edges Removed2_68: -360393733
+      Final Project_Sprite sheet White Edges Removed2_69: -213398737
+      Final Project_Sprite sheet White Edges Removed2_7: 1087899697
+      Final Project_Sprite sheet White Edges Removed2_70: -705749009
+      Final Project_Sprite sheet White Edges Removed2_71: 1892288864
+      Final Project_Sprite sheet White Edges Removed2_72: 1017269753
+      Final Project_Sprite sheet White Edges Removed2_73: 556876153
+      Final Project_Sprite sheet White Edges Removed2_74: 228616616
+      Final Project_Sprite sheet White Edges Removed2_75: -1615348498
+      Final Project_Sprite sheet White Edges Removed2_76: -1219590751
+      Final Project_Sprite sheet White Edges Removed2_77: 87661289
+      Final Project_Sprite sheet White Edges Removed2_78: -1903684436
+      Final Project_Sprite sheet White Edges Removed2_79: 1120348420
+      Final Project_Sprite sheet White Edges Removed2_8: 535127407
+      Final Project_Sprite sheet White Edges Removed2_80: 1808123909
+      Final Project_Sprite sheet White Edges Removed2_81: 709759073
+      Final Project_Sprite sheet White Edges Removed2_82: 46100682
+      Final Project_Sprite sheet White Edges Removed2_83: -1425146456
+      Final Project_Sprite sheet White Edges Removed2_9: -511993669
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
