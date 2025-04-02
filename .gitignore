@@ -1,10 +1,7 @@
-/.vscode
-/Assembly-CSharp.csproj
-/cave
-/HomelandGame.sln
-/Library
-/Logs
-/Packages
-/ProjectSettings
-/Temp
-/UserSettings
+# Ignore everything
+*
+
+# But not these files/folders
+!.gitignore
+!Assets/
+!Assets//*.cs
