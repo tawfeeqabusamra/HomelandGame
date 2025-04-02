@@ -8,7 +8,7 @@ namespace HomeLand
     public class FoxMovement : MonoBehaviour
     {
 
-        public float moveSpeed = 5f;
+        public float moveSpeed = 3f;
 
         public Rigidbody2D rb;
 
@@ -21,7 +21,7 @@ namespace HomeLand
         [SerializeField]
         float rayLength = 1f;
         [SerializeField]
-        float jumpForce = 20;
+        float jumpForce = 15;
         [SerializeField]
         public LayerMask groundLayer;
         public LayerMask EnemyMask;
