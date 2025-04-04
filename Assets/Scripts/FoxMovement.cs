@@ -14,6 +14,7 @@ namespace HomeLand
 
         [SerializeField]
         public GameObject enemy;
+        public GameObject enemy2;
         float xInput;
         bool jump = false;
         bool allowJump = false;
@@ -25,12 +26,19 @@ namespace HomeLand
         [SerializeField]
         public LayerMask groundLayer;
         public LayerMask EnemyMask;
+        public LayerMask EnemyMask2;
         Animator animator;
 
         bool isCrouching = false;
         bool isAttaking = false;
         bool isKilling = false;
-        bool collision = false;
+        bool isKilling2 = false;
+        bool collision1 = false;
+        bool collision3 = false;
+        bool collision4 = false;
+
+        bool collision2 = false;
+
 
         void Start()
         {
@@ -45,15 +53,24 @@ namespace HomeLand
             xInput = Input.GetAxisRaw("Horizontal");
             isCrouching = Input.GetKey(KeyCode.LeftControl);
             isAttaking = Input.GetKey(KeyCode.F);
-            collision = Physics2D.Raycast(transform.position, Vector2.right, 0.7f, EnemyMask);
-            isKilling = isAttaking && collision;
-            Debug.Log(collision);
+            collision1 = Physics2D.Raycast(transform.position, Vector2.right, 0.7f, EnemyMask);
+            collision3 = Physics2D.Raycast(transform.position, Vector2.left, 0.7f, EnemyMask);
+            collision4 = Physics2D.Raycast(transform.position, Vector2.left, 0.7f, EnemyMask2);
+            collision2 = Physics2D.Raycast(transform.position, Vector2.right, 0.7f, EnemyMask2);
+            isKilling = isAttaking && (collision1 || collision3);
+            isKilling2 = isAttaking && (collision2 || collision4);
+            Debug.Log(collision1);
             Debug.Log(isKilling);
             jump = Input.GetKey(KeyCode.Space);
             allowJump = Physics2D.Raycast(transform.position, Vector2.down, rayLength, groundLayer);
             if (isKilling)
             {
                 Destroy(enemy);
+
+            }
+            if (isKilling2)
+            {
+                Destroy(enemy2);
 
             }
         }
