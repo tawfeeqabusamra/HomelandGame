@@ -18,17 +18,17 @@ namespace HomeLand
         float xInput;
         bool jump = false;
         bool allowJump = false;
+        bool allowJump2 = false;
         RaycastHit raycastHit;
         [SerializeField]
         float rayLength = 1f;
         [SerializeField]
-        float jumpForce = 15;
+        float jumpForce = 8;
         [SerializeField]
         public LayerMask groundLayer;
         public LayerMask EnemyMask;
         public LayerMask EnemyMask2;
         Animator animator;
-
         bool isCrouching = false;
         bool isAttaking = false;
         bool isKilling = false;
@@ -53,16 +53,17 @@ namespace HomeLand
             xInput = Input.GetAxisRaw("Horizontal");
             isCrouching = Input.GetKey(KeyCode.LeftControl);
             isAttaking = Input.GetKey(KeyCode.F);
-            collision1 = Physics2D.Raycast(transform.position, Vector2.right, 0.7f, EnemyMask);
-            collision3 = Physics2D.Raycast(transform.position, Vector2.left, 0.7f, EnemyMask);
-            collision4 = Physics2D.Raycast(transform.position, Vector2.left, 0.7f, EnemyMask2);
-            collision2 = Physics2D.Raycast(transform.position, Vector2.right, 0.7f, EnemyMask2);
+            collision1 = Physics2D.Raycast(transform.position, Vector2.right, 0.8f, EnemyMask);
+            collision3 = Physics2D.Raycast(transform.position, Vector2.left, 0.8f, EnemyMask);
+            collision4 = Physics2D.Raycast(transform.position, Vector2.left, 0.8f, EnemyMask2);
+            collision2 = Physics2D.Raycast(transform.position, Vector2.right, 0.8f, EnemyMask2);
             isKilling = isAttaking && (collision1 || collision3);
             isKilling2 = isAttaking && (collision2 || collision4);
             Debug.Log(collision1);
             Debug.Log(isKilling);
             jump = Input.GetKey(KeyCode.Space);
             allowJump = Physics2D.Raycast(transform.position, Vector2.down, rayLength, groundLayer);
+            allowJump2 = Physics2D.Raycast(transform.position, Vector2.right, rayLength, groundLayer);
             if (isKilling)
             {
                 Destroy(enemy);
@@ -76,7 +77,7 @@ namespace HomeLand
         }
         void FixedUpdate()
         {
-            MovementMethods.Jump(jump, allowJump, jumpForce, rb, animator);
+            MovementMethods.Jump(jump, allowJump, allowJump2, jumpForce, rb, animator);
             MovementMethods.Walk(animator, xInput, rb, moveSpeed);
             MovementMethods.Crouch(isCrouching, animator);
             MovementMethods.Attack(isAttaking, animator);

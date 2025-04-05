@@ -7,9 +7,9 @@ namespace HomeLand
 {
     public static class MovementMethods 
     {
-        public static void Jump(bool jump, bool allowJump, float jumpForce, Rigidbody2D rb, Animator animator)
+        public static void Jump(bool jump, bool allowJump, bool allowJump2, float jumpForce, Rigidbody2D rb, Animator animator)
         {
-            if (jump && allowJump)
+            if (jump && (allowJump || allowJump2))
             {
                 rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 animator.Play("Player_Jumping");
