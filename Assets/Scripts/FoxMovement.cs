@@ -23,7 +23,7 @@ namespace HomeLand
         [SerializeField]
         float rayLength = 1f;
         [SerializeField]
-        float jumpForce = 8;
+        float jumpForce = 6;
         [SerializeField]
         public LayerMask groundLayer;
         public LayerMask EnemyMask;
