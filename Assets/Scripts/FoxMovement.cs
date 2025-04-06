@@ -36,8 +36,9 @@ namespace HomeLand
         bool collision1 = false;
         bool collision3 = false;
         bool collision4 = false;
-
         bool collision2 = false;
+        [SerializeField]
+        Transform resbawnPoint;
 
 
         void Start()
@@ -53,10 +54,10 @@ namespace HomeLand
             xInput = Input.GetAxisRaw("Horizontal");
             isCrouching = Input.GetKey(KeyCode.LeftControl);
             isAttaking = Input.GetKey(KeyCode.F);
-            collision1 = Physics2D.Raycast(transform.position, Vector2.right, 0.8f, EnemyMask);
-            collision3 = Physics2D.Raycast(transform.position, Vector2.left, 0.8f, EnemyMask);
-            collision4 = Physics2D.Raycast(transform.position, Vector2.left, 0.8f, EnemyMask2);
-            collision2 = Physics2D.Raycast(transform.position, Vector2.right, 0.8f, EnemyMask2);
+            collision1 = Physics2D.Raycast(transform.position, Vector2.right, 1f, EnemyMask);
+            collision2 = Physics2D.Raycast(transform.position, Vector2.right, 1f, EnemyMask2);
+            collision3 = Physics2D.Raycast(transform.position, Vector2.left, 1f, EnemyMask);
+            collision4 = Physics2D.Raycast(transform.position, Vector2.left, 1f, EnemyMask2);
             isKilling = isAttaking && (collision1 || collision3);
             isKilling2 = isAttaking && (collision2 || collision4);
             Debug.Log(collision1);
@@ -81,8 +82,11 @@ namespace HomeLand
             MovementMethods.Walk(animator, xInput, rb, moveSpeed);
             MovementMethods.Crouch(isCrouching, animator);
             MovementMethods.Attack(isAttaking, animator);
-
-
+        }
+        private void OnTriggerEnter2D(Collider2D other) {
+            if (other.CompareTag("Enemy") || other.CompareTag("DeadZone")){
+                MovementMethods.Respawn(rb,resbawnPoint);
+            }
         }
 
 

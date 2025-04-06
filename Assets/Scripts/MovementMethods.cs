@@ -44,6 +44,10 @@ namespace HomeLand
             animator.SetBool("Attack", isAttaking);
 
         }
+        public static void Respawn(Rigidbody2D rb , Transform resbawnPoint){
+            rb.transform.position = resbawnPoint.position;
+
+        }
       
 
 
