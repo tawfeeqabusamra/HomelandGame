@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class DoorTrigger : MonoBehaviour
 {
-    public string sceneToLoad;
+    public int sceneToLoad;
 
     private void OnTriggerEnter2D(Collider2D other)
     {

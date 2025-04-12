@@ -64,7 +64,6 @@ namespace HomeLand
             Debug.Log(isKilling);
             jump = Input.GetKey(KeyCode.Space);
             allowJump = Physics2D.Raycast(transform.position, Vector2.down, rayLength, groundLayer);
-            allowJump2 = Physics2D.Raycast(transform.position, Vector2.right, rayLength, groundLayer);
             if (isKilling)
             {
                 Destroy(enemy);
@@ -78,13 +77,13 @@ namespace HomeLand
         }
         void FixedUpdate()
         {
-            MovementMethods.Jump(jump, allowJump, allowJump2, jumpForce, rb, animator);
+            MovementMethods.Jump(jump, allowJump,jumpForce, rb, animator);
             MovementMethods.Walk(animator, xInput, rb, moveSpeed);
             MovementMethods.Crouch(isCrouching, animator);
             MovementMethods.Attack(isAttaking, animator);
         }
         private void OnTriggerEnter2D(Collider2D other) {
-            if (other.CompareTag("Enemy") || other.CompareTag("DeadZone")){
+            if ( other.CompareTag("DeadZone") || other.CompareTag("Enemy")){
                 MovementMethods.Respawn(rb,resbawnPoint);
             }
         }

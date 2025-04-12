@@ -7,15 +7,13 @@ namespace HomeLand
 {
     public static class MovementMethods 
     {
-        public static void Jump(bool jump, bool allowJump, bool allowJump2, float jumpForce, Rigidbody2D rb, Animator animator)
+        public static void Jump(bool jump, bool allowJump, float jumpForce, Rigidbody2D rb, Animator animator)
         {
-            if (jump && (allowJump || allowJump2))
+            if (jump && allowJump)
             {
                 rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 animator.Play("Player_Jumping");
             }
-
-
         }
         public static void Walk(Animator animator, float xInput, Rigidbody2D rb, float moveSpeed)
         {
@@ -31,8 +29,6 @@ namespace HomeLand
                 rb.transform.localScale = new Vector2(-1, 1);
             }
             
-
-
         }
 
         public static void Crouch(bool isCrouching, Animator animator)
@@ -48,9 +44,6 @@ namespace HomeLand
             rb.transform.position = resbawnPoint.position;
 
         }
-      
-
-
     }
 
 }
