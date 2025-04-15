@@ -13,19 +13,18 @@ namespace HomeLand
         float xInput;
         bool jump = false;
         bool allowJump = false;
-        bool allowJump2 = false;
         RaycastHit raycastHit;
         [SerializeField]
         float rayLength = 1f;
         [SerializeField]
-        float jumpForce = 6;
+        float jumpForce = 7;
         [SerializeField]
         public LayerMask groundLayer;
         public LayerMask EnemyMask;
 
         Animator animator;
         bool isCrouching = false;
-        bool isAttaking = false;
+        public static bool isAttaking = false;
         public static bool isKilling = false;
         bool collision1 = false;
         bool collision2 = false;
