@@ -9,12 +9,7 @@ namespace HomeLand
     {
 
         public float moveSpeed = 3f;
-
         public Rigidbody2D rb;
-
-        [SerializeField]
-        public GameObject enemy;
-        public GameObject enemy2;
         float xInput;
         bool jump = false;
         bool allowJump = false;
@@ -27,15 +22,12 @@ namespace HomeLand
         [SerializeField]
         public LayerMask groundLayer;
         public LayerMask EnemyMask;
-        public LayerMask EnemyMask2;
+
         Animator animator;
         bool isCrouching = false;
         bool isAttaking = false;
-        bool isKilling = false;
-        bool isKilling2 = false;
+        public static bool isKilling = false;
         bool collision1 = false;
-        bool collision3 = false;
-        bool collision4 = false;
         bool collision2 = false;
         [SerializeField]
         Transform resbawnPoint;
@@ -54,26 +46,11 @@ namespace HomeLand
             xInput = Input.GetAxisRaw("Horizontal");
             isCrouching = Input.GetKey(KeyCode.LeftControl);
             isAttaking = Input.GetKey(KeyCode.F);
-            collision1 = Physics2D.Raycast(transform.position, Vector2.right, 1f, EnemyMask);
-            collision2 = Physics2D.Raycast(transform.position, Vector2.right, 1f, EnemyMask2);
-            collision3 = Physics2D.Raycast(transform.position, Vector2.left, 1f, EnemyMask);
-            collision4 = Physics2D.Raycast(transform.position, Vector2.left, 1f, EnemyMask2);
-            isKilling = isAttaking && (collision1 || collision3);
-            isKilling2 = isAttaking && (collision2 || collision4);
-            Debug.Log(collision1);
-            Debug.Log(isKilling);
+            collision1 = Physics2D.Raycast(transform.position, Vector2.right, 9f, EnemyMask);
+            collision2 = Physics2D.Raycast(transform.position, Vector2.left, 9f, EnemyMask);
+            isKilling = isAttaking && (collision1 || collision2);
             jump = Input.GetKey(KeyCode.Space);
             allowJump = Physics2D.Raycast(transform.position, Vector2.down, rayLength, groundLayer);
-            if (isKilling)
-            {
-                Destroy(enemy);
-
-            }
-            if (isKilling2)
-            {
-                Destroy(enemy2);
-
-            }
         }
         void FixedUpdate()
         {
@@ -87,8 +64,5 @@ namespace HomeLand
                 MovementMethods.Respawn(rb,resbawnPoint);
             }
         }
-
-
-
     }
 }
