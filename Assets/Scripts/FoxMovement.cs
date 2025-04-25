@@ -24,12 +24,12 @@ namespace HomeLand
 
         Animator animator;
         bool isCrouching = false;
-        public static bool isAttaking = false;
+        public static bool isAttacking = false;
         public static bool isKilling = false;
         bool collision1 = false;
         bool collision2 = false;
-        [SerializeField]
-        Transform resbawnPoint;
+        public Transform respawnPoint;
+
 
 
         void Start()
@@ -37,31 +37,38 @@ namespace HomeLand
             rb = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
 
+
         }
 
 
         void Update()
         {
             xInput = Input.GetAxisRaw("Horizontal");
-            isCrouching = Input.GetKey(KeyCode.LeftControl);
-            isAttaking = Input.GetKey(KeyCode.F);
+            isCrouching = Input.GetKey(KeyCode.S);
+            isAttacking = Input.GetKey(KeyCode.E);
             collision1 = Physics2D.Raycast(transform.position, Vector2.right, 9f, EnemyMask);
             collision2 = Physics2D.Raycast(transform.position, Vector2.left, 9f, EnemyMask);
-            isKilling = isAttaking && (collision1 || collision2);
-            jump = Input.GetKey(KeyCode.Space);
+            isKilling = isAttacking && (collision1 || collision2);
+            jump = Input.GetKey(KeyCode.W);
             allowJump = Physics2D.Raycast(transform.position, Vector2.down, rayLength, groundLayer);
         }
         void FixedUpdate()
         {
-            MovementMethods.Jump(jump, allowJump,jumpForce, rb, animator);
+            MovementMethods.Jump(jump, allowJump, jumpForce, rb, animator);
             MovementMethods.Walk(animator, xInput, rb, moveSpeed);
             MovementMethods.Crouch(isCrouching, animator);
-            MovementMethods.Attack(isAttaking, animator);
+            MovementMethods.Attack(isAttacking, animator);
+
         }
-        private void OnTriggerEnter2D(Collider2D other) {
-            if ( other.CompareTag("DeadZone") || other.CompareTag("Enemy")){
-                MovementMethods.Respawn(rb,resbawnPoint);
+        public void OnTrigger2D(Collider2D other)
+        {
+            if (other.CompareTag("Trap"))
+            {
+              MovementMethods.Respawn(rb,respawnPoint);
             }
+
         }
+
+
     }
 }
